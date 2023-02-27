@@ -1,9 +1,9 @@
 # Some Instructions
 There are two versions. \
 [1] my template \
-  This one is a full version which sets the JCR and IF. The JCR is firstly set in "callNumber" and the IF is set in "libraryCatalog". \
+&emsp;&emsp;This one is a full version which sets the JCR and IF. The JCR is firstly set in "callNumber" and the IF is set in "libraryCatalog". \
 [2] myTemplate-Base \
-  This one is a simple version which doesn't need to be set up beforehand. \
+&emsp;&emsp;This one is a simple version which doesn't need to be set up beforehand. \
     
 # Use
 [1] Download the file. \
@@ -11,6 +11,6 @@ There are two versions. \
 [3] Paste it into "Note editor". \
 
 # Communicate with me
-If you have some question or advice, you can communicate with me through qq.\
+If you have some question or advice, you can communicate with me through qq. \
 And my number is 2310856999.
 
