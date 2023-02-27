@@ -1,0 +1,84 @@
+<!-- author:cople -->
+<h1>${topItem.getField("title")}</h1>
+<h2 style="color: #1B5E20; background-color:#F1F8E9;">💡 Meta Data</h2> 
+<table>    
+ <tr>         
+	<th style="background-color:#dbeedd;">              
+	     <p style="text-align:i right">Title </p>          <!-- 标题 -->
+	</th>         
+	<td style="background-color:#dbeedd;">          
+	  ${topItem.getField('title')}         
+	</td>      
+ </tr> 
+ <tr>
+        <th style="background-color:#f3faf4;">             
+	   <p style="text-align: right">Journal </p>        <!-- 期刊  -->
+       </th>         
+       <td style="background-color:#f3faf4;">             
+	  ${topItem.getField('publicationTitle')}   
+       </td>    
+ </tr>     
+ <tr>
+        <th style="background-color:#f3faf4;">
+            <!-- 作者 -->
+            <p style="text-align: right">Authors </p>
+        </th>
+        <td style="background-color:#f3faf4;">
+            ${topItem.getCreators().map((v)=>v.firstName+" "+v.lastName).join("; ")}
+        </td>
+ </tr>
+ <tr>
+        <th style="background-color:#dbeedd;">
+            <!-- 出版日期 -->
+            <p style="text-align: right">Pub. date </p>
+        </th>
+        <td style="background-color:#dbeedd;">
+            ${topItem.getField('date')}
+        </td>
+ </tr>   
+ <tr>
+        <th style="background-color:#f3faf4;">
+            <p style="text-align: right">DOI </p>
+        </th>
+        <td style="background-color:#f3faf4;">
+            <a href= "https://doi.org/${topItem.getField('DOI')}">${topItem.getField('DOI')}</a>
+        </td>
+ </tr>
+ <tr>
+        <th style="background-color:#dbeedd;">
+            <!-- 分区 -->
+            <p style="text-align: right">JCR </p>
+        </th>
+        <td style="background-color:#dbeedd;">
+            ${topItem.getField('callNumber')}
+        </td>
+ </tr>
+ <tr>
+        <th style="background-color:#dbeedd;">
+             <!-- 影响因子 -->
+            <p style="text-align: right">IF </p>
+        </th>
+        <td style="background-color:#dbeedd;">
+            ${topItem.getField('libraryCatalog')}
+        </td>
+ </tr>
+ </table>
+</span></h1>\n <h2 style="color:  #E65100; background-color:  #FFF8E1;">📜 研究背景 & 目的 & 意义 & 基础</h2> <hr/>
+<h3>  <span><span style="color:  #1565C0">背景：</span></span></h3>
+<p></p>
+<h3>  <span style="color: #1565C0">目的：</span></h3>
+<p></p>
+<h3>  <span style="color: #1565C0">意义：</span></h3>
+<p></p>
+<h3>  <span style="color: #1565C0">基础：</span></h3>
+<p></p>
+</span></h1>\n <h2 style="color:#2E7D32; background-color:    #F1F8E9;">&#x1F4CA 研究内容</h2> <hr/>
+<p></p>
+</span></h1>\n <h2 style="color:#4A148C; background-color:    #F5F5F5;">🚩 研究结论</h2> <hr/>
+<p></p>
+</span></h1>\n <h2 style="color: #006064; background-color:   #E0F7FA;">📌 创新 & 疑问</h2> <hr/>
+<h3>  <span style="color: #1565C0">创新：</span></h3>
+<p></p>
+<h3>  <span style="color: #1565C0">疑问：</span></h3>
+<p></p>
+</span></h1>\n <h2 style="color:#1565C0; background-color:   #E1F5FE;">🔬 研究展望</h2> <hr/>
