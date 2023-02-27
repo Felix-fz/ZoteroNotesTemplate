@@ -8,7 +8,7 @@ There are two versions. \
 # Use
 [1] Download the file. \
 [2] Copy the article. \
-[3] Paste it into "Note editor". \
+[3] Paste it into "Note editor".
 
 # Communicate with me
 If you have some question or advice, you can communicate with me through qq. \
