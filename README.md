@@ -1,3 +1,5 @@
+# Important
+！！！Zotero-better-notes version < 1.0
 # Some Instructions
 There are two versions. \
 [1] my template \
